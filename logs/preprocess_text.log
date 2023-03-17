@@ -1,0 +1,966 @@
+2023-03-12 07:36:53,434 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 07:36:53,454 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T07:36:53.434462', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 07:36:53,455 - INFO - collecting all words and their counts
+2023-03-12 07:36:53,455 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 07:36:53,455 - INFO - Creating a fresh vocabulary
+2023-03-12 07:36:53,455 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T07:36:53.455470', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:36:53,455 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T07:36:53.455552', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:36:53,455 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 07:36:53,455 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 07:36:53,455 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T07:36:53.455879', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:36:53,456 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 07:36:53,456 - INFO - resetting layer weights
+2023-03-12 07:36:53,456 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T07:36:53.456205', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 07:38:16,209 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 07:38:16,224 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T07:38:16.210190', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 07:38:16,224 - INFO - collecting all words and their counts
+2023-03-12 07:38:16,224 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 07:38:16,224 - INFO - Creating a fresh vocabulary
+2023-03-12 07:38:16,224 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T07:38:16.224910', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:38:16,225 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T07:38:16.225000', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:38:16,225 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 07:38:16,225 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 07:38:16,225 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T07:38:16.225351', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:38:16,225 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 07:38:16,225 - INFO - resetting layer weights
+2023-03-12 07:38:16,225 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T07:38:16.225603', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 07:53:09,655 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 07:53:09,668 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T07:53:09.656214', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 07:53:09,669 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 07:53:09,669 - INFO - collecting all words and their counts
+2023-03-12 07:53:09,669 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 07:53:09,669 - INFO - Creating a fresh vocabulary
+2023-03-12 07:53:09,669 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T07:53:09.669505', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:53:09,669 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T07:53:09.669585', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:53:09,669 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 07:53:09,669 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 07:53:09,669 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T07:53:09.669959', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:53:09,670 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 07:53:09,670 - INFO - resetting layer weights
+2023-03-12 07:53:09,670 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T07:53:09.670207', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 07:54:35,923 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 07:54:35,941 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T07:54:35.923599', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 07:54:35,942 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 07:54:35,942 - INFO - collecting all words and their counts
+2023-03-12 07:54:35,942 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 07:54:35,942 - INFO - Creating a fresh vocabulary
+2023-03-12 07:54:35,943 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T07:54:35.943035', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:54:35,943 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T07:54:35.943170', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:54:35,943 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 07:54:35,944 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 07:54:35,944 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T07:54:35.944353', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 07:54:35,944 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 07:54:35,944 - INFO - resetting layer weights
+2023-03-12 07:54:35,944 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T07:54:35.944804', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 07:54:35,944 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 08:38:47,186 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 08:38:47,203 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T08:38:47.187204', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:38:47,204 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 08:38:47,204 - INFO - collecting all words and their counts
+2023-03-12 08:38:47,204 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:38:47,204 - INFO - Creating a fresh vocabulary
+2023-03-12 08:38:47,204 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T08:38:47.204564', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:38:47,204 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T08:38:47.204695', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:38:47,204 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:38:47,204 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:38:47,205 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:38:47.205045', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:38:47,205 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:38:47,205 - INFO - resetting layer weights
+2023-03-12 08:38:47,205 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:38:47.205294', 'gensim': '4.2.0', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 08:38:47,205 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 08:45:49,047 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 08:45:49,061 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T08:45:49.048136', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:45:49,062 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 08:45:49,062 - INFO - collecting all words and their counts
+2023-03-12 08:45:49,062 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:45:49,062 - INFO - Creating a fresh vocabulary
+2023-03-12 08:45:49,062 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:45:49.062612', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:45:49,062 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:45:49.062713', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:45:49,062 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:45:49,062 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:45:49,063 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:45:49.063055', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:45:49,063 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:45:49,063 - INFO - resetting layer weights
+2023-03-12 08:45:49,063 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:45:49.063451', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 08:45:49,063 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 08:46:30,733 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 08:46:30,746 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T08:46:30.734360', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:46:30,747 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 08:46:30,747 - INFO - collecting all words and their counts
+2023-03-12 08:46:30,747 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:46:30,747 - INFO - Creating a fresh vocabulary
+2023-03-12 08:46:30,747 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:46:30.747758', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:46:30,748 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:46:30.748032', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:46:30,748 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:46:30,748 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:46:30,748 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:46:30.748689', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:46:30,748 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:46:30,748 - INFO - resetting layer weights
+2023-03-12 08:46:30,748 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:46:30.748958', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 08:46:30,749 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 08:46:30,749 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T08:46:30.749611', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:46:30,749 - INFO - collecting all words and their counts
+2023-03-12 08:46:30,749 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:46:30,749 - INFO - Creating a fresh vocabulary
+2023-03-12 08:46:30,749 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:46:30.749836', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:46:30,749 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:46:30.749892', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:46:30,749 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:46:30,749 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:46:30,750 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:46:30.750018', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:46:30,750 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:46:30,750 - INFO - resetting layer weights
+2023-03-12 08:46:30,750 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:46:30.750187', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 08:51:11,926 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 08:51:11,940 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T08:51:11.927208', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:51:11,941 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 08:51:11,941 - INFO - collecting all words and their counts
+2023-03-12 08:51:11,941 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:51:11,941 - INFO - Creating a fresh vocabulary
+2023-03-12 08:51:11,941 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:51:11.941539', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:51:11,941 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:51:11.941648', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:51:11,941 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:51:11,941 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:51:11,941 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:51:11.941975', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:51:11,942 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:51:11,942 - INFO - resetting layer weights
+2023-03-12 08:51:11,942 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:51:11.942230', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 08:51:11,942 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 08:51:11,942 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T08:51:11.942935', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:51:11,943 - INFO - collecting all words and their counts
+2023-03-12 08:51:11,943 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:51:11,943 - INFO - Creating a fresh vocabulary
+2023-03-12 08:51:11,943 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:51:11.943594', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:51:11,943 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:51:11.943698', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:51:11,943 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:51:11,943 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:51:11,943 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:51:11.943849', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:51:11,943 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:51:11,943 - INFO - resetting layer weights
+2023-03-12 08:51:11,944 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:51:11.944032', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 08:59:11,181 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 08:59:11,195 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T08:59:11.182214', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:59:11,195 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 08:59:11,196 - INFO - collecting all words and their counts
+2023-03-12 08:59:11,196 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:59:11,196 - INFO - Creating a fresh vocabulary
+2023-03-12 08:59:11,196 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:59:11.196535', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:59:11,196 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:59:11.196700', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:59:11,196 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:59:11,197 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:59:11,197 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:59:11.197502', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:59:11,197 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:59:11,197 - INFO - resetting layer weights
+2023-03-12 08:59:11,197 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:59:11.197817', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 08:59:11,197 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 08:59:11,198 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T08:59:11.198616', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 08:59:11,198 - INFO - collecting all words and their counts
+2023-03-12 08:59:11,198 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 08:59:11,198 - INFO - Creating a fresh vocabulary
+2023-03-12 08:59:11,199 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:59:11.199121', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:59:11,199 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T08:59:11.199336', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:59:11,199 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 08:59:11,199 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 08:59:11,199 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T08:59:11.199587', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 08:59:11,199 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 08:59:11,199 - INFO - resetting layer weights
+2023-03-12 08:59:11,199 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T08:59:11.199853', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 09:09:46,202 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 09:09:46,203 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T09:09:46.203670', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 09:09:46,204 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 09:09:46,204 - INFO - collecting all words and their counts
+2023-03-12 09:09:46,204 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 09:09:46,204 - INFO - Creating a fresh vocabulary
+2023-03-12 09:09:46,205 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T09:09:46.205027', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:09:46,205 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T09:09:46.205194', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:09:46,205 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 09:09:46,205 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 09:09:46,205 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T09:09:46.205841', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:09:46,206 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 09:09:46,206 - INFO - resetting layer weights
+2023-03-12 09:09:46,206 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T09:09:46.206785', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 09:09:46,207 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 09:09:46,207 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T09:09:46.207745', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 09:19:01,924 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 09:19:01,926 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T09:19:01.926342', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 09:19:01,926 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 09:19:01,926 - INFO - collecting all words and their counts
+2023-03-12 09:19:01,927 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 09:19:01,927 - INFO - Creating a fresh vocabulary
+2023-03-12 09:19:01,927 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T09:19:01.927386', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:19:01,927 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T09:19:01.927533', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:19:01,927 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 09:19:01,927 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 09:19:01,928 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T09:19:01.928024', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:19:01,928 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 09:19:01,928 - INFO - resetting layer weights
+2023-03-12 09:19:01,928 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T09:19:01.928558', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 09:19:01,928 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 09:19:01,929 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T09:19:01.929132', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 09:19:01,929 - INFO - collecting all words and their counts
+2023-03-12 09:19:01,929 - WARNING - Each 'sentences' item should be a list of words (usually unicode strings). First item here is instead plain <class 'str'>.
+2023-03-12 09:19:01,929 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-12 09:19:01,929 - INFO - collected 13 word types from a corpus of 22 raw words and 22 sentences
+2023-03-12 09:19:01,929 - INFO - Creating a fresh vocabulary
+2023-03-12 09:19:01,930 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 1 unique words (7.69% of original 13, drops 12)', 'datetime': '2023-03-12T09:19:01.930097', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:19:01,930 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 5 word corpus (22.73% of original 22, drops 17)', 'datetime': '2023-03-12T09:19:01.930265', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:19:01,931 - INFO - deleting the raw counts dictionary of 13 items
+2023-03-12 09:19:01,931 - INFO - sample=0.001 downsamples 1 most-common words
+2023-03-12 09:19:01,932 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0.163113883008419 word corpus (3.3%% of prior 5)', 'datetime': '2023-03-12T09:19:01.932088', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 09:19:01,936 - INFO - estimated required memory for 1 words and 100 dimensions: 1300 bytes
+2023-03-12 09:19:01,936 - INFO - resetting layer weights
+2023-03-12 09:19:01,938 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T09:19:01.938751', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 09:19:01,939 - INFO - Word2Vec lifecycle event {'msg': 'training model with 3 workers on 1 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2023-03-12T09:19:01.939104', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 09:19:01,950 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:01,951 - INFO - EPOCH 0: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:01,951 - WARNING - EPOCH 0: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:01,963 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:01,964 - INFO - EPOCH 1: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:01,965 - WARNING - EPOCH 1: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:01,979 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:01,982 - INFO - EPOCH 2: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:01,982 - WARNING - EPOCH 2: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:01,998 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,000 - INFO - EPOCH 3: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,000 - WARNING - EPOCH 3: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,016 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,018 - INFO - EPOCH 4: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,018 - WARNING - EPOCH 4: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,036 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,038 - INFO - EPOCH 5: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,038 - WARNING - EPOCH 5: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,051 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,055 - INFO - EPOCH 6: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,055 - WARNING - EPOCH 6: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,067 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,069 - INFO - EPOCH 7: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,069 - WARNING - EPOCH 7: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,078 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,079 - INFO - EPOCH 8: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,079 - WARNING - EPOCH 8: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,087 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,088 - INFO - EPOCH 9: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,089 - WARNING - EPOCH 9: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,097 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,098 - INFO - EPOCH 10: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,098 - WARNING - EPOCH 10: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,107 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,108 - INFO - EPOCH 11: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,108 - WARNING - EPOCH 11: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,116 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,117 - INFO - EPOCH 12: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,117 - WARNING - EPOCH 12: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,125 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,126 - INFO - EPOCH 13: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,126 - WARNING - EPOCH 13: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,135 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,136 - INFO - EPOCH 14: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,136 - WARNING - EPOCH 14: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,144 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,145 - INFO - EPOCH 15: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,145 - WARNING - EPOCH 15: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,153 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,154 - INFO - EPOCH 16: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,155 - WARNING - EPOCH 16: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,162 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,163 - INFO - EPOCH 17: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,163 - WARNING - EPOCH 17: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,171 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,172 - INFO - EPOCH 18: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,173 - WARNING - EPOCH 18: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,180 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,181 - INFO - EPOCH 19: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,182 - WARNING - EPOCH 19: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,189 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,190 - INFO - EPOCH 20: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,190 - WARNING - EPOCH 20: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,198 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,199 - INFO - EPOCH 21: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,199 - WARNING - EPOCH 21: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,206 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,206 - INFO - EPOCH 22: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,207 - WARNING - EPOCH 22: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,214 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,215 - INFO - EPOCH 23: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,215 - WARNING - EPOCH 23: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,223 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,224 - INFO - EPOCH 24: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,224 - WARNING - EPOCH 24: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,232 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,233 - INFO - EPOCH 25: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,233 - WARNING - EPOCH 25: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,242 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,243 - INFO - EPOCH 26: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,243 - WARNING - EPOCH 26: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,251 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,252 - INFO - EPOCH 27: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,252 - WARNING - EPOCH 27: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,259 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,259 - INFO - EPOCH 28: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,260 - WARNING - EPOCH 28: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,267 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,268 - INFO - EPOCH 29: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,268 - WARNING - EPOCH 29: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,275 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,276 - INFO - EPOCH 30: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,277 - WARNING - EPOCH 30: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,284 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,285 - INFO - EPOCH 31: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,285 - WARNING - EPOCH 31: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,293 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,294 - INFO - EPOCH 32: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,295 - WARNING - EPOCH 32: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,302 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,303 - INFO - EPOCH 33: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,303 - WARNING - EPOCH 33: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,311 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,312 - INFO - EPOCH 34: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,312 - WARNING - EPOCH 34: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,319 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,320 - INFO - EPOCH 35: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,320 - WARNING - EPOCH 35: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,328 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,329 - INFO - EPOCH 36: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,329 - WARNING - EPOCH 36: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,338 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,339 - INFO - EPOCH 37: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,339 - WARNING - EPOCH 37: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,346 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,347 - INFO - EPOCH 38: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,347 - WARNING - EPOCH 38: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,354 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,355 - INFO - EPOCH 39: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,356 - WARNING - EPOCH 39: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,363 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,364 - INFO - EPOCH 40: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,364 - WARNING - EPOCH 40: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,372 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,373 - INFO - EPOCH 41: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,373 - WARNING - EPOCH 41: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,381 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,382 - INFO - EPOCH 42: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,382 - WARNING - EPOCH 42: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,390 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,391 - INFO - EPOCH 43: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,391 - WARNING - EPOCH 43: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,398 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,399 - INFO - EPOCH 44: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,399 - WARNING - EPOCH 44: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,407 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,407 - INFO - EPOCH 45: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,408 - WARNING - EPOCH 45: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,415 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,417 - INFO - EPOCH 46: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,417 - WARNING - EPOCH 46: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,424 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,426 - INFO - EPOCH 47: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,426 - WARNING - EPOCH 47: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,434 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,435 - INFO - EPOCH 48: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,435 - WARNING - EPOCH 48: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,443 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 09:19:02,444 - INFO - EPOCH 49: training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 09:19:02,444 - WARNING - EPOCH 49: supplied example count (0) did not equal expected count (22)
+2023-03-12 09:19:02,444 - INFO - Word2Vec lifecycle event {'msg': 'training on 0 raw words (0 effective words) took 0.5s, 0 effective words/s', 'datetime': '2023-03-12T09:19:02.444583', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 10:26:09,447 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 10:26:09,466 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T10:26:09.448659', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 10:26:09,466 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 10:26:09,466 - INFO - collecting all words and their counts
+2023-03-12 10:26:09,466 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 10:26:09,466 - INFO - Creating a fresh vocabulary
+2023-03-12 10:26:09,466 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T10:26:09.466949', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 10:26:09,467 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T10:26:09.467030', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 10:26:09,467 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 10:26:09,467 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 10:26:09,468 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T10:26:09.467978', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 10:26:09,468 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 10:26:09,468 - INFO - resetting layer weights
+2023-03-12 10:26:09,468 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T10:26:09.468600', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 10:26:09,468 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 10:26:09,469 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T10:26:09.469748', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 10:26:09,469 - INFO - collecting all words and their counts
+2023-03-12 10:26:09,469 - WARNING - Each 'sentences' item should be a list of words (usually unicode strings). First item here is instead plain <class 'str'>.
+2023-03-12 10:26:09,470 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-12 10:26:09,470 - INFO - collected 13 word types from a corpus of 22 raw words and 22 sentences
+2023-03-12 10:26:09,470 - INFO - Creating a fresh vocabulary
+2023-03-12 10:26:09,470 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 1 unique words (7.6923076923076925%% of original 13, drops 12)', 'datetime': '2023-03-12T10:26:09.470440', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 10:26:09,470 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 5 word corpus (22.727272727272727%% of original 22, drops 17)', 'datetime': '2023-03-12T10:26:09.470510', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 10:26:09,470 - INFO - deleting the raw counts dictionary of 13 items
+2023-03-12 10:26:09,470 - INFO - sample=0.001 downsamples 1 most-common words
+2023-03-12 10:26:09,470 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0.163113883008419 word corpus (3.3%% of prior 5)', 'datetime': '2023-03-12T10:26:09.470717', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 10:26:09,473 - INFO - estimated required memory for 1 words and 100 dimensions: 1300 bytes
+2023-03-12 10:26:09,473 - INFO - resetting layer weights
+2023-03-12 10:26:09,474 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T10:26:09.474269', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 10:26:09,474 - INFO - Word2Vec lifecycle event {'msg': 'training model with 3 workers on 1 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2023-03-12T10:26:09.474407', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 10:26:09,476 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,477 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,477 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,477 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,477 - INFO - EPOCH - 1 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,477 - WARNING - EPOCH - 1 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,478 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,479 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,479 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,479 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,479 - INFO - EPOCH - 2 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,479 - WARNING - EPOCH - 2 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,480 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,480 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,480 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,480 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,480 - INFO - EPOCH - 3 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,480 - WARNING - EPOCH - 3 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,481 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,481 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,481 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,482 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,482 - INFO - EPOCH - 4 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,482 - WARNING - EPOCH - 4 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,482 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,483 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,483 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,483 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,483 - INFO - EPOCH - 5 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,483 - WARNING - EPOCH - 5 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,484 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,484 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,484 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,484 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,484 - INFO - EPOCH - 6 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,484 - WARNING - EPOCH - 6 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,486 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,486 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,487 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,487 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,487 - INFO - EPOCH - 7 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,487 - WARNING - EPOCH - 7 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,487 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,488 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,488 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,488 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,488 - INFO - EPOCH - 8 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,488 - WARNING - EPOCH - 8 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,489 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,489 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,489 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,489 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,489 - INFO - EPOCH - 9 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,489 - WARNING - EPOCH - 9 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,490 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,490 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,490 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,490 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,490 - INFO - EPOCH - 10 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,491 - WARNING - EPOCH - 10 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,491 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,492 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,492 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,492 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,492 - INFO - EPOCH - 11 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,492 - WARNING - EPOCH - 11 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,493 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,493 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,494 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,494 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,494 - INFO - EPOCH - 12 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,494 - WARNING - EPOCH - 12 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,495 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,495 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,495 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,495 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,495 - INFO - EPOCH - 13 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,495 - WARNING - EPOCH - 13 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,496 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,496 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,496 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,497 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,497 - INFO - EPOCH - 14 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,497 - WARNING - EPOCH - 14 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,498 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,498 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,498 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,498 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,498 - INFO - EPOCH - 15 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,498 - WARNING - EPOCH - 15 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,499 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,499 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,499 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,499 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,499 - INFO - EPOCH - 16 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,500 - WARNING - EPOCH - 16 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,501 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,501 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,501 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,501 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,501 - INFO - EPOCH - 17 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,501 - WARNING - EPOCH - 17 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,502 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,503 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,503 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,503 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,503 - INFO - EPOCH - 18 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,503 - WARNING - EPOCH - 18 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,503 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,504 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,504 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,504 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,504 - INFO - EPOCH - 19 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,504 - WARNING - EPOCH - 19 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,505 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,505 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,505 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,505 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,506 - INFO - EPOCH - 20 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,506 - WARNING - EPOCH - 20 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,506 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,507 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,507 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,507 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,507 - INFO - EPOCH - 21 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,507 - WARNING - EPOCH - 21 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,508 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,509 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,509 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,509 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,510 - INFO - EPOCH - 22 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,510 - WARNING - EPOCH - 22 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,510 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,511 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,511 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,511 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,511 - INFO - EPOCH - 23 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,511 - WARNING - EPOCH - 23 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,512 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,512 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,513 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,513 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,513 - INFO - EPOCH - 24 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,513 - WARNING - EPOCH - 24 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,513 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,514 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,514 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,514 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,514 - INFO - EPOCH - 25 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,514 - WARNING - EPOCH - 25 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,514 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,514 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,515 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,515 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,515 - INFO - EPOCH - 26 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,515 - WARNING - EPOCH - 26 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,515 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,515 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,516 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,516 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,516 - INFO - EPOCH - 27 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,516 - WARNING - EPOCH - 27 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,517 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,518 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,518 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,518 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,518 - INFO - EPOCH - 28 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,518 - WARNING - EPOCH - 28 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,519 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,519 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,519 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,519 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,519 - INFO - EPOCH - 29 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,519 - WARNING - EPOCH - 29 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,520 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,521 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,521 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,521 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,521 - INFO - EPOCH - 30 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,521 - WARNING - EPOCH - 30 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,522 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,522 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,522 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,522 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,522 - INFO - EPOCH - 31 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,522 - WARNING - EPOCH - 31 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,523 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,523 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,523 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,524 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,524 - INFO - EPOCH - 32 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,524 - WARNING - EPOCH - 32 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,525 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,525 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,525 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,525 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,526 - INFO - EPOCH - 33 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,526 - WARNING - EPOCH - 33 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,526 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,527 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,527 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,527 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,527 - INFO - EPOCH - 34 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,527 - WARNING - EPOCH - 34 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,528 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,528 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,528 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,528 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,528 - INFO - EPOCH - 35 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,528 - WARNING - EPOCH - 35 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,529 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,530 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,530 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,530 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,530 - INFO - EPOCH - 36 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,530 - WARNING - EPOCH - 36 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,530 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,531 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,531 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,531 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,531 - INFO - EPOCH - 37 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,531 - WARNING - EPOCH - 37 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,532 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,532 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,533 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,533 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,533 - INFO - EPOCH - 38 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,533 - WARNING - EPOCH - 38 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,534 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,534 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,534 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,534 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,534 - INFO - EPOCH - 39 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,534 - WARNING - EPOCH - 39 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,535 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,535 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,536 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,536 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,536 - INFO - EPOCH - 40 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,536 - WARNING - EPOCH - 40 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,536 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,537 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,537 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,537 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,537 - INFO - EPOCH - 41 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,537 - WARNING - EPOCH - 41 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,537 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,538 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,538 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,538 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,538 - INFO - EPOCH - 42 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,538 - WARNING - EPOCH - 42 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,539 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,539 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,539 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,540 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,540 - INFO - EPOCH - 43 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,540 - WARNING - EPOCH - 43 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,541 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,542 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,542 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,542 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,542 - INFO - EPOCH - 44 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,542 - WARNING - EPOCH - 44 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,543 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,543 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,543 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,543 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,543 - INFO - EPOCH - 45 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,544 - WARNING - EPOCH - 45 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,544 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,545 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,545 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,545 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,545 - INFO - EPOCH - 46 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,545 - WARNING - EPOCH - 46 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,546 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,546 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,546 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,546 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,546 - INFO - EPOCH - 47 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,546 - WARNING - EPOCH - 47 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,547 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,547 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,547 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,547 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,547 - INFO - EPOCH - 48 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,547 - WARNING - EPOCH - 48 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,548 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,549 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,549 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,549 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,549 - INFO - EPOCH - 49 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,549 - WARNING - EPOCH - 49 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,550 - WARNING - train() called with an empty iterator (if not intended, be sure to provide a corpus that offers restartable iteration = an iterable).
+2023-03-12 10:26:09,551 - INFO - worker thread finished; awaiting finish of 2 more threads
+2023-03-12 10:26:09,551 - INFO - worker thread finished; awaiting finish of 1 more threads
+2023-03-12 10:26:09,551 - INFO - worker thread finished; awaiting finish of 0 more threads
+2023-03-12 10:26:09,551 - INFO - EPOCH - 50 : training on 0 raw words (0 effective words) took 0.0s, 0 effective words/s
+2023-03-12 10:26:09,551 - WARNING - EPOCH - 50 : supplied example count (0) did not equal expected count (22)
+2023-03-12 10:26:09,551 - INFO - Word2Vec lifecycle event {'msg': 'training on 0 raw words (0 effective words) took 0.1s, 0 effective words/s', 'datetime': '2023-03-12T10:26:09.551572', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 13:59:04,740 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 13:59:04,766 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T13:59:04.740947', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 13:59:04,767 - INFO - collecting all words and their counts
+2023-03-12 13:59:04,767 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 13:59:04,767 - INFO - Creating a fresh vocabulary
+2023-03-12 13:59:04,767 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T13:59:04.767803', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 13:59:04,767 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T13:59:04.767928', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 13:59:04,768 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 13:59:04,768 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 13:59:04,768 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T13:59:04.768558', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 13:59:04,768 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 13:59:04,768 - INFO - resetting layer weights
+2023-03-12 13:59:04,768 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T13:59:04.768806', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:01:52,936 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:01:52,980 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:01:52.937652', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:01:52,980 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:01:52,981 - INFO - collecting all words and their counts
+2023-03-12 14:01:52,981 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:01:52,981 - INFO - Creating a fresh vocabulary
+2023-03-12 14:01:52,981 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:01:52.981467', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:01:52,981 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:01:52.981590', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:01:52,981 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:01:52,982 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:01:52,982 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:01:52.982130', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:01:52,982 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:01:52,982 - INFO - resetting layer weights
+2023-03-12 14:01:52,982 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:01:52.982525', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:05:40,493 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:05:40,513 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:05:40.494173', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:05:40,514 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:05:40,514 - INFO - collecting all words and their counts
+2023-03-12 14:05:40,514 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:05:40,514 - INFO - Creating a fresh vocabulary
+2023-03-12 14:05:40,514 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:05:40.514322', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:05:40,514 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:05:40.514393', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:05:40,514 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:05:40,514 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:05:40,514 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:05:40.514800', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:05:40,515 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:05:40,515 - INFO - resetting layer weights
+2023-03-12 14:05:40,515 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:05:40.515185', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:05:40,515 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 14:07:57,047 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:07:57,074 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:07:57.047614', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:07:57,075 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:07:57,075 - INFO - collecting all words and their counts
+2023-03-12 14:07:57,075 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:07:57,075 - INFO - Creating a fresh vocabulary
+2023-03-12 14:07:57,075 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:07:57.075664', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:07:57,075 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:07:57.075746', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:07:57,075 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:07:57,076 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:07:57,076 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:07:57.076228', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:07:57,076 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:07:57,076 - INFO - resetting layer weights
+2023-03-12 14:07:57,076 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:07:57.076485', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:07:57,076 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 14:09:48,639 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:09:48,662 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:09:48.639319', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:09:48,662 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:09:48,662 - INFO - collecting all words and their counts
+2023-03-12 14:09:48,662 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:09:48,663 - INFO - Creating a fresh vocabulary
+2023-03-12 14:09:48,663 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:09:48.663099', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:09:48,663 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:09:48.663169', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:09:48,663 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:09:48,663 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:09:48,663 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:09:48.663477', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:09:48,663 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:09:48,663 - INFO - resetting layer weights
+2023-03-12 14:09:48,663 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:09:48.663697', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:09:48,663 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 14:19:05,690 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:19:05,715 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:19:05.690790', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:19:05,715 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:19:05,715 - INFO - collecting all words and their counts
+2023-03-12 14:19:05,715 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:19:05,715 - INFO - Creating a fresh vocabulary
+2023-03-12 14:19:05,715 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:19:05.715769', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:19:05,715 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:19:05.715838', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:19:05,715 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:19:05,716 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:19:05,716 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:19:05.716142', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:19:05,716 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:19:05,716 - INFO - resetting layer weights
+2023-03-12 14:19:05,716 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:19:05.716363', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:19:05,716 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 14:21:54,754 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:21:54,790 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:21:54.755317', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:21:54,790 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:21:54,791 - INFO - collecting all words and their counts
+2023-03-12 14:21:54,791 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:21:54,791 - INFO - Creating a fresh vocabulary
+2023-03-12 14:21:54,791 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:21:54.791427', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:21:54,791 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:21:54.791528', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:21:54,791 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:21:54,791 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:21:54,792 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:21:54.792035', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:21:54,792 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:21:54,792 - INFO - resetting layer weights
+2023-03-12 14:21:54,792 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:21:54.792348', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:21:54,792 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 14:25:00,591 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:25:00,620 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:25:00.592163', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:25:00,621 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:25:00,621 - INFO - collecting all words and their counts
+2023-03-12 14:25:00,621 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:25:00,621 - INFO - Creating a fresh vocabulary
+2023-03-12 14:25:00,621 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:25:00.621493', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:25:00,621 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:25:00.621562', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:25:00,621 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:25:00,621 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:25:00,621 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:25:00.621896', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:25:00,622 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:25:00,622 - INFO - resetting layer weights
+2023-03-12 14:25:00,622 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:25:00.622120', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:25:00,622 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 14:27:08,129 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 14:27:08,155 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T14:27:08.130230', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 14:27:08,156 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 14:27:08,156 - INFO - collecting all words and their counts
+2023-03-12 14:27:08,156 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 14:27:08,156 - INFO - Creating a fresh vocabulary
+2023-03-12 14:27:08,156 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:27:08.156434', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:27:08,156 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T14:27:08.156505', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:27:08,156 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 14:27:08,156 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 14:27:08,156 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T14:27:08.156797', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 14:27:08,156 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 14:27:08,156 - INFO - resetting layer weights
+2023-03-12 14:27:08,157 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T14:27:08.157021', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 14:27:08,157 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 15:31:32,818 - INFO - collecting all words and their counts
+2023-03-12 15:31:32,819 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-12 15:31:32,820 - INFO - collected 1776 word types from a corpus of 4942 raw words and 217 sentences
+2023-03-12 15:31:32,820 - INFO - Creating a fresh vocabulary
+2023-03-12 15:31:32,860 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 1776 unique words (100.00% of original 1776, drops 0)', 'datetime': '2023-03-12T15:31:32.825734', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:31:32,860 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 4942 word corpus (100.00% of original 4942, drops 0)', 'datetime': '2023-03-12T15:31:32.860462', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:31:32,868 - INFO - deleting the raw counts dictionary of 1776 items
+2023-03-12 15:31:32,869 - INFO - sample=0.001 downsamples 53 most-common words
+2023-03-12 15:31:32,869 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 3871.2358563946445 word corpus (78.3%% of prior 4942)', 'datetime': '2023-03-12T15:31:32.869520', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:31:32,884 - INFO - estimated required memory for 1776 words and 100 dimensions: 2308800 bytes
+2023-03-12 15:31:32,884 - INFO - resetting layer weights
+2023-03-12 15:31:32,887 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T15:31:32.887814', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 15:31:32,888 - INFO - Word2Vec lifecycle event {'msg': 'training model with 3 workers on 1776 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2023-03-12T15:31:32.888231', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 15:31:32,898 - INFO - EPOCH 0: training on 4942 raw words (3866 effective words) took 0.0s, 613454 effective words/s
+2023-03-12 15:31:32,905 - INFO - EPOCH 1: training on 4942 raw words (3873 effective words) took 0.0s, 904145 effective words/s
+2023-03-12 15:31:32,910 - INFO - EPOCH 2: training on 4942 raw words (3877 effective words) took 0.0s, 829394 effective words/s
+2023-03-12 15:31:32,917 - INFO - EPOCH 3: training on 4942 raw words (3863 effective words) took 0.0s, 737857 effective words/s
+2023-03-12 15:31:32,923 - INFO - EPOCH 4: training on 4942 raw words (3911 effective words) took 0.0s, 824678 effective words/s
+2023-03-12 15:31:32,923 - INFO - Word2Vec lifecycle event {'msg': 'training on 24710 raw words (19390 effective words) took 0.0s, 548997 effective words/s', 'datetime': '2023-03-12T15:31:32.923762', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 15:31:32,923 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=1776, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T15:31:32.923870', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 15:31:32,924 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 15:31:32,924 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T15:31:32.924505', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 15:31:32,924 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 15:31:32,924 - INFO - collecting all words and their counts
+2023-03-12 15:31:32,924 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 15:31:32,924 - INFO - Creating a fresh vocabulary
+2023-03-12 15:31:32,924 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T15:31:32.924885', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:31:32,924 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T15:31:32.924937', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:31:32,924 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 15:31:32,925 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 15:31:32,925 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T15:31:32.925092', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:31:32,925 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 15:31:32,925 - INFO - resetting layer weights
+2023-03-12 15:31:32,925 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T15:31:32.925240', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 15:31:32,925 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 15:42:40,790 - INFO - collecting all words and their counts
+2023-03-12 15:42:40,791 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-12 15:42:40,792 - INFO - collected 1776 word types from a corpus of 4942 raw words and 217 sentences
+2023-03-12 15:42:40,792 - INFO - Creating a fresh vocabulary
+2023-03-12 15:42:40,831 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 1776 unique words (100.00% of original 1776, drops 0)', 'datetime': '2023-03-12T15:42:40.798127', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:42:40,831 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 4942 word corpus (100.00% of original 4942, drops 0)', 'datetime': '2023-03-12T15:42:40.831600', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:42:40,839 - INFO - deleting the raw counts dictionary of 1776 items
+2023-03-12 15:42:40,840 - INFO - sample=0.001 downsamples 53 most-common words
+2023-03-12 15:42:40,840 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 3871.2358563946445 word corpus (78.3%% of prior 4942)', 'datetime': '2023-03-12T15:42:40.840545', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:42:40,855 - INFO - estimated required memory for 1776 words and 100 dimensions: 2308800 bytes
+2023-03-12 15:42:40,855 - INFO - resetting layer weights
+2023-03-12 15:42:40,858 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T15:42:40.858443', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 15:42:40,858 - INFO - Word2Vec lifecycle event {'msg': 'training model with 3 workers on 1776 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2023-03-12T15:42:40.858724', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 15:42:40,869 - INFO - EPOCH 0: training on 4942 raw words (3866 effective words) took 0.0s, 475987 effective words/s
+2023-03-12 15:42:40,876 - INFO - EPOCH 1: training on 4942 raw words (3873 effective words) took 0.0s, 912985 effective words/s
+2023-03-12 15:42:40,884 - INFO - EPOCH 2: training on 4942 raw words (3877 effective words) took 0.0s, 705441 effective words/s
+2023-03-12 15:42:40,891 - INFO - EPOCH 3: training on 4942 raw words (3863 effective words) took 0.0s, 725165 effective words/s
+2023-03-12 15:42:40,897 - INFO - EPOCH 4: training on 4942 raw words (3911 effective words) took 0.0s, 834961 effective words/s
+2023-03-12 15:42:40,898 - INFO - Word2Vec lifecycle event {'msg': 'training on 24710 raw words (19390 effective words) took 0.0s, 493855 effective words/s', 'datetime': '2023-03-12T15:42:40.898110', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 15:42:40,898 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=1776, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T15:42:40.898227', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 15:42:40,898 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 15:42:40,898 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T15:42:40.898935', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 15:42:40,899 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 15:42:40,899 - INFO - collecting all words and their counts
+2023-03-12 15:42:40,899 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 15:42:40,899 - INFO - Creating a fresh vocabulary
+2023-03-12 15:42:40,899 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T15:42:40.899400', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:42:40,899 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T15:42:40.899458', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:42:40,899 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 15:42:40,899 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 15:42:40,899 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T15:42:40.899598', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:42:40,899 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 15:42:40,899 - INFO - resetting layer weights
+2023-03-12 15:42:40,899 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T15:42:40.899766', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 15:42:40,899 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 15:43:34,089 - INFO - collecting all words and their counts
+2023-03-12 15:43:34,089 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-12 15:43:34,090 - INFO - collected 1776 word types from a corpus of 4942 raw words and 217 sentences
+2023-03-12 15:43:34,090 - INFO - Creating a fresh vocabulary
+2023-03-12 15:43:34,112 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 1776 unique words (100.00% of original 1776, drops 0)', 'datetime': '2023-03-12T15:43:34.095553', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:43:34,113 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 4942 word corpus (100.00% of original 4942, drops 0)', 'datetime': '2023-03-12T15:43:34.113105', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:43:34,120 - INFO - deleting the raw counts dictionary of 1776 items
+2023-03-12 15:43:34,120 - INFO - sample=0.001 downsamples 53 most-common words
+2023-03-12 15:43:34,121 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 3871.2358563946445 word corpus (78.3%% of prior 4942)', 'datetime': '2023-03-12T15:43:34.121000', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:43:34,132 - INFO - estimated required memory for 1776 words and 100 dimensions: 2308800 bytes
+2023-03-12 15:43:34,132 - INFO - resetting layer weights
+2023-03-12 15:43:34,134 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T15:43:34.134038', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 15:43:34,134 - INFO - Word2Vec lifecycle event {'msg': 'training model with 3 workers on 1776 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2023-03-12T15:43:34.134195', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 15:43:34,140 - INFO - EPOCH 0: training on 4942 raw words (3866 effective words) took 0.0s, 713361 effective words/s
+2023-03-12 15:43:34,146 - INFO - EPOCH 1: training on 4942 raw words (3873 effective words) took 0.0s, 1004989 effective words/s
+2023-03-12 15:43:34,151 - INFO - EPOCH 2: training on 4942 raw words (3877 effective words) took 0.0s, 991135 effective words/s
+2023-03-12 15:43:34,157 - INFO - EPOCH 3: training on 4942 raw words (3863 effective words) took 0.0s, 1054433 effective words/s
+2023-03-12 15:43:34,162 - INFO - EPOCH 4: training on 4942 raw words (3911 effective words) took 0.0s, 1022230 effective words/s
+2023-03-12 15:43:34,163 - INFO - Word2Vec lifecycle event {'msg': 'training on 24710 raw words (19390 effective words) took 0.0s, 671957 effective words/s', 'datetime': '2023-03-12T15:43:34.163132', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-12 15:43:34,163 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=1776, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T15:43:34.163229', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 15:43:34,163 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 15:43:34,163 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T15:43:34.163849', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 15:43:34,164 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 15:43:34,164 - INFO - collecting all words and their counts
+2023-03-12 15:43:34,164 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 15:43:34,164 - INFO - Creating a fresh vocabulary
+2023-03-12 15:43:34,164 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T15:43:34.164237', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:43:34,164 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T15:43:34.164292', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:43:34,164 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 15:43:34,164 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 15:43:34,164 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T15:43:34.164410', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 15:43:34,164 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 15:43:34,164 - INFO - resetting layer weights
+2023-03-12 15:43:34,164 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T15:43:34.164559', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 15:43:34,164 - INFO - Built vocabulary of 0 unique words.
+2023-03-14 04:41:36,581 - INFO - collecting all words and their counts
+2023-03-14 04:41:36,581 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-14 04:41:36,583 - INFO - collected 1776 word types from a corpus of 4942 raw words and 217 sentences
+2023-03-14 04:41:36,583 - INFO - Creating a fresh vocabulary
+2023-03-14 04:41:36,656 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 1776 unique words (100.00% of original 1776, drops 0)', 'datetime': '2023-03-14T04:41:36.592982', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-14 04:41:36,657 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 4942 word corpus (100.00% of original 4942, drops 0)', 'datetime': '2023-03-14T04:41:36.657452', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-14 04:41:36,671 - INFO - deleting the raw counts dictionary of 1776 items
+2023-03-14 04:41:36,672 - INFO - sample=0.001 downsamples 53 most-common words
+2023-03-14 04:41:36,672 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 3871.2358563946445 word corpus (78.3%% of prior 4942)', 'datetime': '2023-03-14T04:41:36.672366', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-14 04:41:36,709 - INFO - estimated required memory for 1776 words and 100 dimensions: 2308800 bytes
+2023-03-14 04:41:36,709 - INFO - resetting layer weights
+2023-03-14 04:41:36,714 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-14T04:41:36.714096', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-14 04:41:36,714 - INFO - Word2Vec lifecycle event {'msg': 'training model with 3 workers on 1776 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2023-03-14T04:41:36.714516', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-14 04:41:36,726 - INFO - EPOCH 0: training on 4942 raw words (3866 effective words) took 0.0s, 433124 effective words/s
+2023-03-14 04:41:36,735 - INFO - EPOCH 1: training on 4942 raw words (3873 effective words) took 0.0s, 808353 effective words/s
+2023-03-14 04:41:36,740 - INFO - EPOCH 2: training on 4942 raw words (3877 effective words) took 0.0s, 808792 effective words/s
+2023-03-14 04:41:36,746 - INFO - EPOCH 3: training on 4942 raw words (3863 effective words) took 0.0s, 844428 effective words/s
+2023-03-14 04:41:36,751 - INFO - EPOCH 4: training on 4942 raw words (3911 effective words) took 0.0s, 1021516 effective words/s
+2023-03-14 04:41:36,751 - INFO - Word2Vec lifecycle event {'msg': 'training on 24710 raw words (19390 effective words) took 0.0s, 521012 effective words/s', 'datetime': '2023-03-14T04:41:36.751955', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'train'}
+2023-03-14 04:41:36,752 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=1776, vector_size=100, alpha=0.025>', 'datetime': '2023-03-14T04:41:36.752054', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-14 04:41:36,752 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-14 04:41:36,752 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-14T04:41:36.752683', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-14 04:41:36,752 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-14 04:41:36,752 - INFO - collecting all words and their counts
+2023-03-14 04:41:36,753 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-14 04:41:36,753 - INFO - Creating a fresh vocabulary
+2023-03-14 04:41:36,753 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-14T04:41:36.753077', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-14 04:41:36,753 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-14T04:41:36.753126', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-14 04:41:36,753 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-14 04:41:36,753 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-14 04:41:36,753 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-14T04:41:36.753235', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-14 04:41:36,753 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-14 04:41:36,753 - INFO - resetting layer weights
+2023-03-14 04:41:36,753 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-14T04:41:36.753378', 'gensim': '4.3.1', 'python': '3.10.10 (v3.10.10:aad5f6a891, Feb  7 2023, 08:47:40) [Clang 13.0.0 (clang-1300.0.29.30)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-14 04:41:36,753 - INFO - Built vocabulary of 0 unique words.

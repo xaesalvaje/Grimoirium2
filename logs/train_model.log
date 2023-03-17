@@ -1,0 +1,51 @@
+2023-03-12 11:11:04,885 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 11:11:04,898 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T11:11:04.885376', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 11:11:04,899 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 11:11:04,899 - INFO - collecting all words and their counts
+2023-03-12 11:11:04,899 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 11:11:04,899 - INFO - Creating a fresh vocabulary
+2023-03-12 11:11:04,899 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T11:11:04.899723', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:11:04,899 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T11:11:04.899800', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:11:04,899 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 11:11:04,900 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 11:11:04,900 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T11:11:04.900131', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:11:04,900 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 11:11:04,900 - INFO - resetting layer weights
+2023-03-12 11:11:04,900 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T11:11:04.900375', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 11:11:04,900 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 11:11:29,221 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 11:11:29,229 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T11:11:29.221410', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 11:11:29,230 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 11:11:29,230 - INFO - collecting all words and their counts
+2023-03-12 11:11:29,230 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 11:11:29,230 - INFO - Creating a fresh vocabulary
+2023-03-12 11:11:29,230 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T11:11:29.230476', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:11:29,230 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.0%% of original 0, drops 0)', 'datetime': '2023-03-12T11:11:29.230563', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:11:29,230 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 11:11:29,230 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 11:11:29,230 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T11:11:29.230884', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:11:29,230 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 11:11:29,231 - INFO - resetting layer weights
+2023-03-12 11:11:29,231 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T11:11:29.231111', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 11:11:29,231 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 11:17:57,973 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 11:17:57,975 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=100, alpha=0.025>', 'datetime': '2023-03-12T11:17:57.975267', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 11:17:57,975 - INFO - Loaded 0 sentences from 0 preprocessed files.
+2023-03-12 11:17:57,976 - INFO - collecting all words and their counts
+2023-03-12 11:17:57,976 - INFO - collected 0 word types from a corpus of 0 raw words and 0 sentences
+2023-03-12 11:17:57,976 - INFO - Creating a fresh vocabulary
+2023-03-12 11:17:57,976 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 0 unique words (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T11:17:57.976696', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:17:57,976 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 0 word corpus (0.00% of original 0, drops 0)', 'datetime': '2023-03-12T11:17:57.976855', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:17:57,976 - INFO - deleting the raw counts dictionary of 0 items
+2023-03-12 11:17:57,977 - INFO - sample=0.001 downsamples 0 most-common words
+2023-03-12 11:17:57,977 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 0 word corpus (0.0%% of prior 0)', 'datetime': '2023-03-12T11:17:57.977391', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'prepare_vocab'}
+2023-03-12 11:17:57,977 - INFO - estimated required memory for 0 words and 100 dimensions: 0 bytes
+2023-03-12 11:17:57,977 - INFO - resetting layer weights
+2023-03-12 11:17:57,978 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-03-12T11:17:57.978014', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'build_vocab'}
+2023-03-12 11:17:57,978 - INFO - Built vocabulary of 0 unique words.
+2023-03-12 11:31:11,067 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 11:31:11,077 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T11:31:11.067864', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 11:31:11,077 - INFO - Loaded 22 sentences from 0 preprocessed files.
+2023-03-12 11:37:14,359 - WARNING - Callbacks are no longer retained by the model, so must be provided whenever training is triggered, as in initialization with a corpus or calling `train()`. The callbacks provided in this initialization without triggering train will be ignored.
+2023-03-12 11:37:14,369 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec(vocab=0, vector_size=100, alpha=0.025)', 'datetime': '2023-03-12T11:37:14.359636', 'gensim': '4.1.2', 'python': '3.7.16 (default, Mar  6 2023, 00:41:11) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'Darwin-22.3.0-x86_64-i386-64bit', 'event': 'created'}
+2023-03-12 11:37:14,369 - INFO - Loaded 22 sentences from 0 preprocessed files.
