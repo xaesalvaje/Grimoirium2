@@ -3,14 +3,17 @@ import os
 import logging
 from gensim.models import Word2Vec
 from gensim.models.callbacks import CallbackAny2Vec
+from gensim.models import KeyedVectors
 
-# Load the text file into a list of sentences
-with open('data/raw/vocab.txt', 'r') as f:
-    sentences = [line.strip().split() for line in f]
+# Load the pre-trained GloVe model
+glove_model_path = "./data/glove/glove.840B.300d.txt"
+glove_model = KeyedVectors.load_word2vec_format(glove_model_path, binary=False)
 
-# Train the Word2Vec model on the sentences
-model = Word2Vec(sentences, min_count=1)
-
+# Use the pre-trained model as the vocabulary for your own model
+my_model = Word2Vec(sentences, size=100, window=5, min_count=5, workers=4)
+my_model.build_vocab_from_freq(glove_model.vocab)
+my_model.intersect_word2vec_format(glove_model_path, binary=False, lockf=1.0)
+my_model.train(sentences, total_examples=my_model.corpus_count, epochs=my_model_epochs)
 
 def train_word2vec_model(sentences, model_path, model_epochs):
     logging.info("Training Word2Vec model...")

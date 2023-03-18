@@ -10,8 +10,6 @@ from scripts.train_model import train_word2vec_model
 from scripts.combine_pdf import merge_pdfs
 from scripts.convert_to_text import convert_to_txt
 from scripts.create_master_corpus import create_master_corpus
-from scripts.build_vocabulary import build_vocab
-
 
 # Set up file paths
 input_dir = "corpus/input/"
@@ -47,6 +45,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+
 # Define the preprocessing function
 def preprocess_text(text):
     # Convert to lowercase
@@ -63,6 +62,7 @@ def preprocess_text(text):
     # Join the tokens back into a string
     preprocessed_text = " ".join(tokens)
     return preprocessed_text
+
 
 # Merge PDF files into one
 merged_pdf = merge_pdfs(input_dir, output_dir)
@@ -111,3 +111,4 @@ lda_model.save(model_file)
 topics = lda_model.print_topics(num_words=num_words)
 for topic in topics:
     print(topic)
+    
