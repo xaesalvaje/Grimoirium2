@@ -10,12 +10,33 @@ from scripts.train_model import train_word2vec_model
 from scripts.combine_pdf import merge_pdfs
 from scripts.convert_to_text import convert_to_txt
 from scripts.create_master_corpus import create_master_corpus
+from nltk.tokenize import sent_tokenize
+
+def preprocess_files(input_dir, output_dir):
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".txt"):
+            input_file_path = os.path.join(input_dir, filename)
+            output_file_path = os.path.join(output_dir, filename)
+
+            with open(input_file_path, "r") as input_file:
+                text = input_file.read()
+
+                # Tokenize text into sentences
+                sentences = sent_tokenize(text)
+
+            with open(output_file_path, "w") as output_file:
+                for sentence in sentences:
+                    # Write each sentence on a new line
+                    output_file.write(sentence + "\n")
 
 # Set up file paths
-input_dir = "corpus/input/"
-output_dir = "corpus/output/"
-processed_dir = "corpus/processed/"
-raw_dir = "corpus/raw/"
+input_dir = "data/raw"
+output_dir = "data/processed"
+processed_dir = "data/processed/"
+raw_dir = "data/raw/"
 logs_dir = "./logs"
 
 # Create directories if they don't exist
@@ -63,7 +84,6 @@ def preprocess_text(text):
     preprocessed_text = " ".join(tokens)
     return preprocessed_text
 
-
 # Merge PDF files into one
 merged_pdf = merge_pdfs(input_dir, output_dir)
 print("PDF files merged successfully!")
@@ -85,6 +105,7 @@ for text_file in text_files:
         logging.info(f"Preprocessed {text_file}")
     except Exception as e:
         logging.error(f"Error processing {text_file}: {e}")
+        
 # Preprocess the text files
 text_files = [f for f in os.listdir(processed_dir) if f.endswith(".txt")]
 for text_file in text_files:

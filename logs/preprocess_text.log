@@ -967,3 +967,38 @@
 2023-03-17 21:14:12,808 - INFO - loading projection weights from ./data/glove/glove.840B.txt
 2023-03-17 21:17:56,674 - INFO - loading projection weights from ./data/glove/glove.840B.300d.txt
 2023-03-17 21:40:24,284 - INFO - loading projection weights from ./data/glove/glove.840B.300d.txt
+2023-03-17 21:45:29,931 - INFO - loading projection weights from /data/glove/glove.840B.300d.txt
+2023-03-17 21:46:25,250 - INFO - loading projection weights from ./data/glove/glove.840B.300d.txt
+2023-03-17 21:47:50,273 - INFO - loading projection weights from ./data/glove/glove.840B.300d.txt
+2023-03-17 21:49:36,672 - INFO - loading projection weights from ./data/glove/preglove
+2023-03-17 21:53:42,598 - INFO - loading projection weights from ./data/glove/preglove.txt
+2023-03-17 21:54:28,016 - INFO - loading projection weights from ./data/glove/preglove.txt
+2023-03-17 21:54:29,630 - WARNING - duplicate word '����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������' in word2vec file, ignoring all but first
+2023-03-17 21:56:46,016 - INFO - loading projection weights from ./data/glove/vectors.txt
+2023-03-17 21:56:50,821 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectors.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T21:56:50.821829', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
+2023-03-17 21:56:50,822 - INFO - converting 71291 vectors from ./data/glove/vectors.txt to ./data/glove/vectorsconverted.txt
+2023-03-17 21:56:51,144 - INFO - storing 71291x50 projection weights into ./data/glove/vectorsconverted.txt
+2023-03-17 21:56:58,100 - INFO - loading projection weights from ./data/glove/vectors.txt
+2023-03-17 21:57:26,972 - INFO - loading projection weights from ./data/glove/vectors.txt
+2023-03-17 21:57:32,189 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectors.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T21:57:32.189472', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
+2023-03-17 21:57:32,190 - INFO - converting 71291 vectors from ./data/glove/vectors.txt to ./data/glove/vectorsconverted.txt
+2023-03-17 21:57:32,523 - INFO - storing 71291x50 projection weights into ./data/glove/vectorsconverted.txt
+2023-03-17 21:57:39,932 - INFO - loading projection weights from ./data/glove/vectorsconverted.txt
+2023-03-17 21:57:44,948 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectorsconverted.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T21:57:44.948299', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
+2023-03-17 22:02:37,783 - INFO - loading projection weights from ./data/glove/vectors.txt
+2023-03-17 22:02:42,056 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectors.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T22:02:42.056836', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
+2023-03-17 22:02:42,057 - INFO - converting 71291 vectors from ./data/glove/vectors.txt to ./data/glove/vectorsconverted.txt
+2023-03-17 22:02:42,343 - INFO - storing 71291x50 projection weights into ./data/glove/vectorsconverted.txt
+2023-03-17 22:02:48,812 - INFO - loading projection weights from ./data/glove/vectorsconverted.txt
+2023-03-17 22:02:58,216 - INFO - loading projection weights from ./data/glove/vectors.txt
+2023-03-17 22:03:02,944 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectors.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T22:03:02.944493', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
+2023-03-17 22:03:02,944 - INFO - converting 71291 vectors from ./data/glove/vectors.txt to ./data/glove/vectorsconverted.txt
+2023-03-17 22:03:03,266 - INFO - storing 71291x50 projection weights into ./data/glove/vectorsconverted.txt
+2023-03-17 22:03:11,507 - INFO - loading projection weights from ./data/glove/vectorsconverted.txt
+2023-03-17 22:03:16,697 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectorsconverted.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T22:03:16.697831', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
+2023-03-17 22:04:40,711 - INFO - loading projection weights from ./data/glove/vectors.txt
+2023-03-17 22:04:44,991 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectors.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T22:04:44.991085', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
+2023-03-17 22:04:44,991 - INFO - converting 71291 vectors from ./data/glove/vectors.txt to ./data/glove/vectorsconverted.txt
+2023-03-17 22:04:45,277 - INFO - storing 71291x50 projection weights into ./data/glove/vectorsconverted.txt
+2023-03-17 22:04:51,709 - INFO - loading projection weights from ./data/glove/vectorsconverted.txt
+2023-03-17 22:04:56,073 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (71291, 50) matrix of type float32 from ./data/glove/vectorsconverted.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2023-03-17T22:04:56.072958', 'gensim': '4.3.1', 'python': '3.8.12 (default, Feb 22 2023, 03:37:10) \n[Clang 14.0.0 (clang-1400.0.29.202)]', 'platform': 'macOS-13.2.1-x86_64-i386-64bit', 'event': 'load_word2vec_format'}
